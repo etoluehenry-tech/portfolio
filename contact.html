@@ -5,159 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Etolue Henry</title>
     <link rel="stylesheet" href="./style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./contact.css" type="text/css" media="all">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
-    <style>
-        .contact-section {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 120px 80px;
-        }
-
-        .contact-container {
-            max-width: 700px;
-            width: 100%;
-        }
-
-        .contact-section h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .contact-section p {
-            font-size: 1.1rem;
-            text-align: center;
-            margin-bottom: 50px;
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .form-group label {
-            font-weight: 500;
-            font-size: 0.95rem;
-        }
-
-        .form-group input,
-        .form-group textarea {
-            padding: 12px 15px;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            background: rgba(255, 255, 255, 0.05);
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: #5c84ff;
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            min-height: 150px;
-        }
-
-        .contact-info-box {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-top: 60px;
-            padding-top: 40px;
-            border-top: 2px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .contact-info-item {
-            text-align: center;
-        }
-
-        .contact-info-item i {
-            font-size: 2rem;
-            margin-bottom: 15px;
-            color: #5c84ff;
-        }
-
-        .contact-info-item h3 {
-            font-size: 1rem;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .contact-info-item a {
-            color: rgba(255, 255, 255, 0.8);
-            transition: color 0.3s ease;
-        }
-
-        .contact-info-item a:hover {
-            color: #5c84ff;
-        }
-
-        .contact-info-item p {
-            margin: 0;
-            font-size: 0.95rem;
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 40px;
-        }
-
-        .social-links a {
-            width: 45px;
-            height: 45px;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
-        }
-
-        .social-links a:hover {
-            border-color: #5c84ff;
-            color: #5c84ff;
-        }
-
-        @media (max-width: 768px) {
-            .contact-section {
-                padding: 80px 30px;
-            }
-
-            .contact-section h1 {
-                font-size: 2rem;
-            }
-
-            .contact-info-box {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-
-            .navbar {
-                padding: 0 30px;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -220,7 +69,7 @@
                     <textarea id="message" name="message" required></textarea>
                 </div>
 
-                <button type="submit" class="btn" style="width: 100%; padding: 12px; font-size: 1rem;">Send Message</button>
+                <button type="submit" class="btn contact-submit">Send Message</button>
             </form>
 
             <div class="contact-info-box">
@@ -237,13 +86,13 @@
             </div>
 
             <div class="social-links">
-                <a href="https://github.com" target="_blank" title="GitHub">
+                <a href="https://github.com/etoluehenry-tech" target="_blank" title="GitHub">
                     <i class="ri-github-fill"></i>
                 </a>
-                <a href="https://twitter.com" target="_blank" title="Twitter">
+                <a href="https://twitter.com/etoluehenry" target="_blank" title="Twitter">
                     <i class="ri-twitter-fill"></i>
                 </a>
-                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                <a href="https://linkedin.com/in/etoluehenry" target="_blank" title="LinkedIn">
                     <i class="ri-linkedin-fill"></i>
                 </a>
             </div>
