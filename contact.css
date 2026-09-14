@@ -65,10 +65,45 @@
     min-height: 150px;
 }
 
-.contact-submit {
+.submit-btn {
     width: 100%;
     padding: 12px;
     font-size: 1rem;
+    color: black;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.submit-btn:hover {
+    background: grey;
+    color: whitesmoke;
+    cursor: pointer;
+    transform: translateX(8px);
+    box-shadow: -8px 8px 0 white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .submit-btn {
+        transition: none;
+    }
+
+    .submit-btn:hover {
+        transform: none;
+    }
+}
+
+.submit-btn:disabled {
+    cursor: wait;
+    opacity: 0.65;
+}
+
+.form-status {
+    min-height: 24px;
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .contact-info-box {
