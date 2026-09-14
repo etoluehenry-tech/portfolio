@@ -48,7 +48,10 @@
             <h1>Get In Touch</h1>
             <p>Have a question or want to work together? Feel free to reach out. I'd love to hear from you!</p>
 
-            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <form class="contact-form" action="https://formsubmit.co/etoluehenry@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New portfolio contact message">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="true">
                 <div class="form-group">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name" required>
@@ -60,7 +63,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="subject">Subject</label>
+                    <label for="subject">Phone Number</label>
                     <input type="text" id="subject" name="subject" required>
                 </div>
 
@@ -69,21 +72,9 @@
                     <textarea id="message" name="message" required></textarea>
                 </div>
 
-                <button type="submit" class="btn contact-submit">Send Message</button>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <p class="form-status" aria-live="polite"></p>
             </form>
-
-            <div class="contact-info-box">
-                <div class="contact-info-item">
-                    <i class="ri-mail-line"></i>
-                    <h3>Email</h3>
-                    <a href="mailto:etoluehenry@gmail.com">etoluehenry@gmail.com</a>
-                </div>
-                <div class="contact-info-item">
-                    <i class="ri-phone-line"></i>
-                    <h3>Phone</h3>
-                    <a href="tel:+2347051138779">+234 705 113 8779</a>
-                </div>
-            </div>
 
             <div class="social-links">
                 <a href="https://github.com/etoluehenry-tech" target="_blank" rel="noopener" title="GitHub">
@@ -109,6 +100,8 @@
             <p>&copy; 2026 Etolue Henry. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
